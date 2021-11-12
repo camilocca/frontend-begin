@@ -26,12 +26,13 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
+    justify-items: center;
 
 }
 
 .logo{
     width: 150px;
-    margin-bottom:48 px;
+    margin-bottom: 48px;
     justify-self:center; 
     display: none;
 }
@@ -94,4 +95,31 @@ body{
     .logo{
         display: block;
     }
+}
+
+.email-img{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.email-img img{
+    width: 80px;
+}
+
+.resend{
+    font-size: var(--sm)
+}
+
+.resend span{
+    color: var(--very-light-pink)
+}
+
+.resend a {
+    color : var(--hospital-green);
+    text-decoration: none;
 }
