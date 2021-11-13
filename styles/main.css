@@ -56,6 +56,15 @@ body{
 .form{
     display:flex;
     flex-direction: column;
+    width: 100%;
+}
+.form a {
+    color: var(--hospital-green);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+    margin-top: 8px;
 }
 .label{
     font-size: var(--sm);
@@ -73,11 +82,28 @@ body{
     margin-bottom: 12px
 }
 
+.input-email{
+    margin-bottom: 22px;
+}
+
 .primary-btn{
     background-color: var(--hospital-green);
     border-radius: 8px;
     border: none;
     color: var(--white);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+
+}
+
+.secondary-btn{
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1px solid var(--hospital-green);
+    color: var(--hospital-green);
     width: 100%;
     cursor: pointer;
     font-size: var(--md);
@@ -95,31 +121,10 @@ body{
     .logo{
         display: block;
     }
+    .secondary-btn{
+        position: absolute;
+        bottom: 12px;
+        max-width:300px ;
+    }
 }
 
-.email-img{
-    width: 132px;
-    height: 132px;
-    border-radius: 50%;
-    background-color: var(--text-input-field);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 24px;
-}
-.email-img img{
-    width: 80px;
-}
-
-.resend{
-    font-size: var(--sm)
-}
-
-.resend span{
-    color: var(--very-light-pink)
-}
-
-.resend a {
-    color : var(--hospital-green);
-    text-decoration: none;
-}
