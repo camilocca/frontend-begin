@@ -66,10 +66,10 @@ body{
     margin-bottom: 52px;
     margin-top: 8px;
 }
-.label{
+label{
     font-size: var(--sm);
     font-weight: bold;
-    margin-bottom:4px
+    margin-bottom: 4px
 }
 
 .input{

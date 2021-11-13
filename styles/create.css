@@ -1,0 +1,22 @@
+.input-name,
+.input-email,
+.input-password{
+    margin-bottom: 24px;
+}
+
+.title{
+    display: block;
+    width: 100%;
+    font-size: var(--lg);
+    text-align: start;
+    margin-bottom : 36px;
+}
+
+@media (max-width: 640px){
+    .form{
+        justify-content: space-between;
+    }
+    .form-container{
+        height: 100%;
+    }
+}
